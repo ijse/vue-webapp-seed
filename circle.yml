@@ -8,6 +8,6 @@ dependencies:
 
   post:
     - wget https://selenium-release.storage.googleapis.com/3.0-beta4/selenium-server-standalone-3.0.0-beta4.jar
-    - java -jar selenium-server-standalone-3.0.0-beta4.jar
+    - java -jar selenium-server-standalone-3.0.0-beta4.jar:
         background: true
 
