@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: v6.1.0
+
+dependencies:
+  override:
+    - npm install --dev
+
+test:
+  post:
+    - npm test
