@@ -7,7 +7,7 @@ dependencies:
     - npm install --dev
 
   post:
-    - wget https://selenium-release.storage.googleapis.com/2.44/selenium-server-standalone-2.44.0.jar
+    - wget https://selenium-release.storage.googleapis.com/3.0-beta4/selenium-server-standalone-3.0.0-beta4.jar
     - java -jar selenium-server-standalone-2.44.0.jar:
         background: true
 
