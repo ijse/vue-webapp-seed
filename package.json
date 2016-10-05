@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "description": "vue webapp seed project with vue2.0, vue-router, vuex and etc.",
   "author": "ijse <i@ijser.cn>",
-  "private": true,
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
   "scripts": {
     "start": "npm run dev",
     "dev": "node build/dev-server.js",
