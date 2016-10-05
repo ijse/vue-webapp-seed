@@ -2,6 +2,8 @@
 
 > Vue WebApp Seed Project
 
+[![CircleCI](https://circleci.com/gh/ijse/vue-webapp-seed.svg?style=svg)](https://circleci.com/gh/ijse/vue-webapp-seed)
+
 ## Build Setup
 
 ``` bash
