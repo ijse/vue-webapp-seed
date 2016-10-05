@@ -10,7 +10,7 @@ module.exports = {
     "start_process": true,
     "server_path": "node_modules/selenium-server/lib/runner/selenium-server-standalone-2.53.0.jar",
     "host": "127.0.0.1",
-    "port": 4444,
+    "port": 4484,
     "cli_args": {
       "webdriver.chrome.driver": require('chromedriver').path
     }
@@ -18,7 +18,7 @@ module.exports = {
 
   "test_settings": {
     "default": {
-      "selenium_port": 4444,
+      "selenium_port": 4484,
       "selenium_host": "localhost",
       "silent": true
     },
