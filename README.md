@@ -36,6 +36,9 @@ npm test
 - Vue-resource (https://github.com/vuejs/vue-resource/tree/master/docs)
 - Vue-i18n (https://kazupon.github.io/vue-i18n/)
 - Vue-loader (http://vuejs.github.io/vue-loader)
+- Nightwatch (http://nightwatchjs.org/guide)
+- Karma (https://karma-runner.github.io/1.0/intro/configuration.html)
+- Mocha (https://mochajs.org/)
 - Webpack (http://vuejs-templates.github.io/webpack/)
 
 ## Source Directory
