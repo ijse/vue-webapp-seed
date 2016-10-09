@@ -1,5 +1,13 @@
 require('babel-register')
 
+let chromeDriverPath = require('chromedriver').path;
+
+// for snap-ci:
+//  https://docs.snap-ci.com/the-ci-environment/testing-with-browsers/
+if (process.env.SNAP_CI) {
+  chromeDriverPath = '/usr/local/bin/chromedriver'
+}
+
 // http://nightwatchjs.org/guide#settings-file
 module.exports = {
   "src_folders": ["test/e2e/specs"],
@@ -12,7 +20,7 @@ module.exports = {
     "host": "127.0.0.1",
     "port": 4484,
     "cli_args": {
-      "webdriver.chrome.driver": require('chromedriver').path
+      "webdriver.chrome.driver": chromeDriverPath
     }
   },
 
